@@ -85,7 +85,3 @@ fit.pam <- pam(wine[-1], k=3, stand=TRUE)
 fit.pam$medoids
 clusplot(fit.pam, main="Bivariate Cluster Plot")
 dev.off()
-
-
-
-
